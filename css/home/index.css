@@ -1,0 +1,493 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.navbar-nav.li.a {
+    color: #286090;
+}
+ul.nav.navbar-nav {
+  float: right;
+}
+img.logo{
+      width: 200px;
+}
+.title{
+    color: #ffdf5e;
+    font-family: auto;
+    padding: 6px;
+
+}
+
+/* CSS cls-about */
+.cls-about{
+  background-image: url(../../img/Layer6.png);
+  background-size: cover;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 500px;
+}
+.text-left{
+  color: honeydew;
+  margin-top: 200px;
+}
+.text-right{
+  color: white;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  font-family: tahoma;
+  font-size: 40px;
+  display: inline-block;
+}
+.text-blow span{
+    color: #ffdf5e;
+    font-weight: bold;
+}
+.phone {
+    display: flex;
+    font-size: 16px;
+}
+.phone2{
+    margin-left: 15px;
+}
+.mail {
+    display: flex;
+    font-size: 16px;
+}
+.fa-envelope{
+    font-size:24px;
+    color: #33d61f;
+    padding-right: 10px;
+    margin-top: 4px;
+}
+.fa-phone{
+    font-size:24px;
+    color: #33d61f;
+    padding-right: 10px;
+    margin-top: 4px;
+}
+.text-top,.text-blow {
+    display: flex;
+    font-size: 15px;
+}
+.text-title {
+    color: #ffdf5e;
+    font-weight: bold;
+    font-size: 40px;
+}
+.img-about{
+    width: 100%;
+}
+.text-content{
+  position: absolute;
+}
+button.btn.btn-success.navbar-btn {
+    color: #354583;
+    background-color: #59e659;
+    border-color: #4cae4c;
+}
+button.btn.btn-datlich {
+    background-color: #ffdf5e;
+    color: #354583;
+    font-weight: bold;    
+    margin-right: 80px;
+    width: 61%;
+    padding: 10px;
+
+}
+.description-content {
+  float: left;
+  width: 93%;
+}
+.nutxanh {
+  background: #53ee8d;
+  width: 20px;
+  height: 30px;
+  position: relative;
+  margin-top: 8px;
+  float: right;
+  top: 0;
+}
+/* CSS cls-enterprise */
+.row.enterprise{
+  margin: 50px;
+  }
+.circle {
+    background: white;
+    border-radius: 50%;
+    height: 219px;
+    position: relative;
+}
+.enterprise-item {
+    height: fit-content;
+    margin: auto;
+    padding: 20px 0;
+  }
+.enterprise-intro{
+  margin: 20px;
+  } 
+.intro-title{
+    text-align: left;
+  }
+.intro-title h4{
+    color: #354583;
+    font-size: 27px;
+  }
+.intro-content p{
+    color: #354583;
+  } 
+.intro-content{
+    margin-top: 10px;
+  }
+.intro-boder{
+    margin: auto;
+    margin-top: 10px;
+    height: 2px;
+    background-color: #354583;
+    margin-left: 0;
+  }
+  
+.enterprise-img{
+  top: 8px;
+  position: absolute;
+  margin-left: 211px;
+}
+.img-en{
+    height: auto;
+    width: 100%;
+  }
+
+.enterprise-title{
+    background-color: 354583;
+  }
+  
+.cls-enterprise {
+    background-color: #f9f9f9;
+}
+.img-training{
+    height: 400px;
+}
+/* CSS cls-training */
+.cls-training{
+    background-image: url("../../img/daotao.png");
+    height: auto;
+    position: relative;
+}
+.training {
+    /* Center and scale the image nicely */
+    background-position: 0 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    /* Needed to position the navbar */
+    position: relative;
+    color: #354583;
+    padding: 30px;
+  }
+.training-title {
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    font-size: 25px;
+}
+.training-decription {
+    text-align: center;
+    color: #ffdf5e;
+    font-weight: bold;
+    font-size: 40px;
+}
+.traning-boder{
+    margin: auto;
+    margin-top: 20px;
+    width: 9%;
+    height: 1px;
+    background-color: #ffdf5e;
+}
+.training-box {
+    margin-top: 12%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 5% 19%;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 10px;
+    height: 316px;
+  }
+div.boder-training-img{
+    bottom: 10px;
+    position: relative;
+    margin: 0px;
+    height: fit-content;
+  }
+.training-img {
+    height: 160px;
+    border-bottom: 2px solid #ffdf5e;
+    margin-top: 15px;
+  }
+.training-img img{
+  width: 109px;
+  height: 109px;
+}
+.img-training {
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+.title-img{
+  padding-top: 10px;
+  color: #354583;
+}
+.description-img{
+  margin-top: 10px;
+}
+.content2-block{
+    background-color: white;
+    width: 24%; 
+    display: flex;
+    float: left;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0.5%;
+    justify-content: center;
+    height: 100%;
+  }
+.container.training-content {
+    padding-bottom: 70px;
+}
+/* CSS footer */
+.footer {
+    background-color: #354583;
+    background-image: url(../../img/background-footer.png);
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat, repeat; 
+    margin-top: 18px;
+}
+.footer-img{
+    position: absolute;
+    height: 300px;
+}
+.headline {
+    display: block;
+    margin: 10px 0 25px 0;
+    border-bottom: 2px solid #3c71bb;
+}
+.headline span{
+    color: #ffdf5e;
+}
+.link-list li span{
+    color: #ffdf5e;
+}
+.footer h2 {
+    color: #eee;
+    font-size: 18px;
+    font-weight: 600;
+}
+.social {
+    margin-top: 100px;
+    padding: 0;
+    font-size: 26px;
+    list-style: none;
+}
+.social ul {
+    list-style: none;
+}
+.social .fa-facebook {
+    background: white;
+    color: #354583;
+    font-size: 30px;
+    border-radius: 1px;
+    width: 30px;
+    text-align: center;
+}
+.social .fa-youtube {
+    background: white;
+    color: #061f65;
+    font-size: 30px;
+    border-radius: 1px;
+    margin-right: 20px;
+    width: 30px;
+    text-align: center;
+}
+ul.link-list{
+    padding-left: 15px;
+    color: #0580b7;
+    font-weight: bold;
+    font-size: 12px;
+}
+.image{
+    width: 50px;
+    height: 50px;
+}
+i.fa.fa-apple {
+    font-size: 30px;
+    color: white;
+    padding-right: 5px;
+}
+i.fa.fa-android {
+    font-size: 30px;
+    color: white;
+    padding-right: 5px;
+}
+.logo-footer {
+  padding-top: 50px;
+}
+.contact-footer{
+  padding-bottom: 50px;
+}
+body {
+  overflow-x:hidden;
+}
+p#toggleMenu {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+span#currentUserName {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #337ab7;
+}
+li#btnLogout {
+  cursor: pointer;
+}
+
+/* Reponsive */
+@media screen and (max-width: 500px){
+  ul.nav.navbar-nav {
+    float: left;
+}
+.text-left{
+  margin-top: 0;
+}
+button.navbar-toggle {
+  background-color: #e3dede;
+}
+span.icon-bar {
+  background-color: black;
+}
+button.btn.btn-datlich {
+  margin-right: 50px;
+}
+.row.enterprise{
+  margin: 10px;
+}
+.enterprise-img {
+  margin-left: 0px;
+}
+}
+@media screen and (max-width: 768px){
+  .text-left{
+    margin-top: 0;
+  }
+  .circle{
+    background: white;
+    border-radius: 50%;
+    position: relative;
+ }
+ .row.enterprise{
+  margin: 10px;
+}
+.enterprise-img {
+  margin-left: 0px;
+  position: relative;
+  top: -50px;
+}
+}
+@media screen and (max-width: 1024px) {
+    .content{
+      height: auto;
+    }
+}
+
+  @media screen and (min-width: 1440px) {
+    .cls-training{
+      margin-left: 0px;
+    }
+  .cls-enterprise{
+    height: auto;
+    margin-left: 0px;
+    }
+    .footer{
+      height: 492px;
+    }
+    .img-en {
+      height: auto;
+      width: 79%;
+  }
+}
+h5#exampleModalLabel {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+li#login {
+  margin-top: 10px;
+  margin-left: 13px;
+}
+button#btnDangNhap, #btnCloseIt{
+  margin-top: 10px;
+}
+h4.modal-title.login-title {
+  text-align: center;
+  font-weight: bold;
+  color: #337ab7;
+}
+/* Modal Login */
+.main-section{
+	margin: 0 auto;
+	margin-top:100px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 0px;
+}
+.user-img{
+	margin-top:-50px;
+}
+.user-img img{
+	height: 100px;
+	width: 100px;
+}
+.user-name{
+	margin:10px 0px;
+}
+.user-name h1{
+	font-size:30px;
+	color:#676363;
+}
+.user-name button{
+	position: absolute;	
+	top:-50px;
+	right:20px;
+	font-size:30px;
+}
+.form-input button{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.link-part{
+	border-radius:0px 0px 5px 5px;
+	background-color: #ECF0F1;
+	padding:15px;
+	border-top:1px solid #c2c2c2;
+}
+.open-modal{
+  display: contents;
+}
+.form-group {
+  margin-bottom: 15px;
+  padding: 15px;
+}
+.modal-footer {
+  border: none!important;
+}
+#btnCloseIt {
+    margin-top: 0px;
+}
+.form-group.login {
+  margin-bottom: 15px!important;
+  padding: 0px!important;
+}

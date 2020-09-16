@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    <title>Lý thuyết và demo</title>
+</head>
+<body>
+    <div class="title">Lý thuyết và demo</div>
+    <div class="container">
+    <div class="display">
+        <div class="lythuyet">
+            <h4>Display: cho phép chúng ta xác định kiểu hiển thị của các thẻ HTML trên website </h4>
+            <br>
+            <p>Cú pháp</p>
+            <br>
+            <h4>display: none: ẩn thành phần được chọn</h4>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex1">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+            </div>
+            <h4>display: inline: thành phần hiển thị thành dạng inline</h4>
+            <div>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex2">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+            </div>
+
+            <h4>display: block: thành phần hiển thị theo dạng khối </h4>
+            <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex3">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+            </div>
+
+            <h4>display: inline-block: thành phần sẽ được hiển thị theo khối nhưng là các khối inline</h4>
+            <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex4">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="position">
+        <div class="relative">
+            <p>Position: xác định loại của phương pháp định vị trí cho thành phần</p>
+            <br>
+            <p>Cú pháp</p>
+            <h4>Static : là giá trị mặc định của position. Dù có khai báo hay không thì các element sẽ được sắp xếp vị trí một các bình thường</h4>
+            <h4>Relative : Vị trí mới của một element tương quan/ liên hệ tới vị trí mặc định của nó</h4>
+            <div class="box-blue"></div>
+            <div class="box-orange"></div>
+            <hr>
+            <h4>Absolute: thiết lập vị trí của một phần tử theo phần tử cha</h4>
+        </div>
+        <div class="absolute">
+            <br>
+            <div class="box-absolute"></div>
+        </div>
+        <hr>
+        <div class="fixed">
+            <h4>Fixed : Giá trị này giúp cho phần tử luôn cố định một chỗ khi chúng ta scroll trình duyệt</h4>
+            <h4>Static : Đây là giá trị hiển thị mặc định của thuộc tính position trong CSS.</h4>
+            <hr>
+        </div>
+    </div>
+    <div class="float">
+        <h4>Float: chuyển một phần tử sang góc trái hoặc phải của không gian bao quanh nó</h4>
+        <p>float-right: Dịch chuyển phần tử được về bên phải</p>
+        <div class="float-right">
+            <img src="https://cls.vn/Content/System/images/logos/cls_logo.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil est aperiam, excepturi exercitationem nulla possimus odit commodi velit sequi, quibusdam modi rem deserunt quis corporis, vitae sit in sed alias.</p>
+        </div>
+        <p>float-left: Dịch chuyển phần tử được về bên trái</p>
+        <div class="float-left">
+            <img src="https://cls.vn/Content/System/images/logos/cls_logo.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil est aperiam, excepturi exercitationem nulla possimus odit commodi velit sequi, quibusdam modi rem deserunt quis corporis, vitae sit in sed alias.</p>
+        </div>
+        <p>float-none: Hiển thị vị trí mặc định của phần tử đó</p>
+        <hr>
+    </div>
+    <div class="padding">
+        <h4>Padding: Thêm khoảng không cho thành phần</h4>
+        <div class="demo-padding">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+    </div>
+    <div class="margin">
+        <h4>Margin: Thêm khoảng không gian bên ngoài thành phần</h4>
+        <div class="demo-margin">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+        <hr>
+    </div>
+    <div class="bolder">
+        <h4>Border: Thuộc tính border được dùng để định dạng đường viền cho thành phần.</h4>     
+        <p class="dotted">Khung viền chấm.</p>
+        <p class="dashed">Khung viền nét đứt.</p>
+        <p class="solid">Khung viền nét viền.</p>
+        <p class="double">Khung viền đôi.</p>
+        <p class="groove">Khung viền rãnh.</p>
+        <p class="ridge">A ridge border.</p>
+        <p class="inset">An inset border.</p>
+        <p class="outset">An outset border.</p>
+        <p class="none">Không có khung viền.</p>
+        <p class="hidden">Khung viền ẩn.</p>
+        <p class="mix">Khung viên trộn lẫn.</p>
+        <hr>
+    </div>
+    <div class="background">
+        <h4>Background: Định dạng nền cho thành phần</h4>
+        <p>background-color : Định dạng nền màu</p>
+        <div class="background-color">
+            <h2>Cloud Learning Sysem</h2>
+            <p>Năm 2017, CLS - Cloud Learning Sysem chính thức được triển khai ra thị trường. 
+                Tính đến đến quý I/2019, đã có hơn 1200 doanh nghiệp, tổ chức ứng dụng CLS vào hoạt động đào tạo và kinh doanh. CLS đã lọt top 10 startups xuất sắc nhất cuộc thi Tìm kiếm tài năng khởi nghiệp đổi mới sáng tạo TechFest 2017, giải Sao khuê 2018 cho nhóm các sản phẩm,
+                giải pháp phần mềm thương mại tiêu biểu của Việt Nam trong lĩnh vực Giáo dục đào tạo.</p>
+        </div>
+        <p>background-image : Định dạng nền bằng hình ảnh</p>
+        <div class="background-image">
+            <h2>Cloud Learning Sysem</h2>
+            <p>Năm 2017, CLS - Cloud Learning Sysem chính thức được triển khai ra thị trường. 
+                Tính đến đến quý I/2019, đã có hơn 1200 doanh nghiệp, tổ chức ứng dụng CLS vào hoạt động đào tạo và kinh doanh. CLS đã lọt top 10 startups xuất sắc nhất cuộc thi Tìm kiếm tài năng khởi nghiệp đổi mới sáng tạo TechFest 2017, giải Sao khuê 2018 cho nhóm các sản phẩm,
+                giải pháp phần mềm thương mại tiêu biểu của Việt Nam trong lĩnh vực Giáo dục đào tạo.</p>
+        </div>
+        <hr>
+    </div>
+    <div class="font-awesome">
+        <h4>Font Awesome</h4>
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-phone"></i>
+        <i class="fab fa-apple"></i>
+        <hr>
+    </div>
+    <div class="boostrap">
+        <div class="container">
+            <h4>Demo modal boostrap</h4>
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+          
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Hello</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Cloud Learning Sysem</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div>
+</body>
+</html>

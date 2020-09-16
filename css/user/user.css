@@ -1,0 +1,143 @@
+
+form>div {
+    margin: 5px 0px;
+}
+
+.infor {
+    width: 200px;
+    text-align: right;
+}
+
+label.error {
+    color: red;
+    padding-left: 1px;
+    padding-top: 4px;
+    font-size: 11px;
+    float: left;
+}
+
+input {
+    width: 300px;
+    margin: 20px, 0px;
+}
+button#btnDk {
+    margin-left: 304px;
+}
+#tableUser {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #tableUser td, #tableUser th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tableUser tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tableUser tr:hover {background-color: #ddd;}
+  
+  #tableUser th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #454d55;
+    color: white;
+        margin-bottom: 10px;
+
+  }
+.title-user{
+    background-color: #07a5ae;
+    background-position: left top;
+    background-repeat: repeat repeat;
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px;
+    color: #ffdf5e;
+    font-family: kodchasan,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 10px 0 20px;
+    padding: -2px 13px 21px;
+    text-decoration: none;
+    height: 40px;
+    width: 26.5%;
+    text-align: center;
+    padding-top: 8px;
+
+}
+.title-edit{
+    background-color: #07a5ae;
+    background-position: left top;
+    background-repeat: repeat repeat;
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px;
+    color: #fff;
+    font-family: kodchasan,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0px 0 20px;
+    padding: -2px 13px 21px;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+}
+.gioitinh{
+    display: flex;
+}
+label.form-check-label {
+    margin-left: -100px;
+}
+button#btnEdit {
+    margin-left: 265px;
+}
+input#key {
+    margin: 12px 0px 3px;
+}
+p#thongbao{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+div#manageUser {
+    border-radius: 9px;
+    background-color: #f8f8f8;
+}
+.container.tableManageUser {
+    height: 385px;
+}
+button#btnDangNhap {
+    margin-top: 10px;
+}
+button#btnDangNhap, #btnCloseIt{
+    margin-top: 10px;
+}
+h4.modal-title.login-title {
+    text-align: center;
+    font-weight: bold;
+    color: #337ab7;
+  }
+button#btnDangKi, #btnChinhSua {
+    margin-top: 10px;
+}
+p#titleSuccess {
+    padding-top: 4px;
+}
+th#btnEditTable{}
+.modal-footer {
+    border: none!important;
+}
+.form-group {
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.form-group.login {
+    margin-bottom: 15px!important;
+    padding: 0px!important;
+}
+#btnCloseIt {
+    margin-top: 10px!important;
+}
